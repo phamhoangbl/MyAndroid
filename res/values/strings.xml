@@ -1,7 +1,12 @@
 <resources>
 
     <string name="app_name">MyAndoird</string>
-
+	<string name="subjects">Subjects</string>
+    <string name="pinned">Pinned Cards</string>
+    <string name="know">Cards I Know</string>
+	<string name="resources">Resources</string>
+    <string name="settings">Settings</string>
+    
     <string name="text_loading">Loading...</string>
 
 </resources>

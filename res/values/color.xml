@@ -1,6 +1,7 @@
 <resources>
         <color name="touch_color1">#FFFFFF</color>
         <color name="touch_color2">#FF0000</color>
+        <color name="text_answer">#FFFFFF</color> 
 </resources>
 
     

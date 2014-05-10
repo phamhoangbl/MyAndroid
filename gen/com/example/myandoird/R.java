@@ -11,24 +11,44 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int text_answer=0x7f040002;
         public static final int touch_color1=0x7f040000;
         public static final int touch_color2=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int splashscreen=0x7f020001;
+        public static final int blue_button_normal=0x7f020000;
+        public static final int gray_button_normal=0x7f020001;
+        public static final int green_button_normal=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int light_blue_button_normal=0x7f020004;
+        public static final int red_button_normal=0x7f020005;
+        public static final int splash_screen_horizontal=0x7f020006;
+        public static final int splashscreen=0x7f020007;
+        public static final int violet_button_normal=0x7f020008;
     }
     public static final class id {
+        public static final int btnCards_know=0x7f070006;
+        public static final int btnPinned_cards=0x7f070005;
+        public static final int btnResources=0x7f070007;
+        public static final int btnSettings=0x7f070008;
+        public static final int btnSubjects=0x7f070004;
         public static final int imageView_fs=0x7f070000;
         public static final int text_touch=0x7f070001;
+        public static final int topbar=0x7f070002;
+        public static final int txtQuestion=0x7f070003;
     }
     public static final class layout {
-        public static final int falshscreen=0x7f030000;
+        public static final int flashscreen=0x7f030000;
         public static final int main=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int text_loading=0x7f050001;
+        public static final int know=0x7f050003;
+        public static final int pinned=0x7f050002;
+        public static final int resources=0x7f050004;
+        public static final int settings=0x7f050005;
+        public static final int subjects=0x7f050001;
+        public static final int text_loading=0x7f050006;
     }
     public static final class style {
         /** 
@@ -57,5 +77,7 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int ButtonMenu=0x7f060003;
+        public static final int TextAnswer=0x7f060002;
     }
 }

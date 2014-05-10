@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
     
+	<LinearLayout
+         	android:id="@+id/topbar"
+            style="@android:style/Widget.ActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"     
+            android:background="#707070">
+		<TextView
+		    android:id="@+id/txtQuestion"
+		    style="@style/TextAnswer"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/app_name" 		    
+		    android:layout_gravity="center_horizontal|center_vertical"
+		    android:lines="1"
+		    />        
+    </LinearLayout>
+    
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center"  >
+		<Button
+			android:id="@+id/btnSubjects"
+			style="@style/ButtonMenu"		
+			android:text="@string/subjects"			
+			android:background="@drawable/violet_button_normal" />				
+		
+		<Button
+			android:id="@+id/btnPinned_cards"
+			style="@style/ButtonMenu"
+			android:text="@string/pinned"
+			android:background="@drawable/red_button_normal" />
 
+		<Button
+			android:id="@+id/btnCards_know"			
+			style="@style/ButtonMenu"
+			android:text="@string/know"
+			android:background="@drawable/light_blue_button_normal" />
+		<Button
+			android:id="@+id/btnResources"						
+			style="@style/ButtonMenu"
+			android:text="@string/resources"
+			android:background="@drawable/blue_button_normal" />
+		<Button
+			android:id="@+id/btnSettings"			
+			style="@style/ButtonMenu"
+			android:text="@string/settings"
+			android:background="@drawable/green_button_normal" />							
+		</LinearLayout>	
 </merge>
